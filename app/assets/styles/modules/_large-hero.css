@@ -7,16 +7,16 @@
   }
 
   &__text-content {
+    padding-top: 88px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     left: 0;
     width: 100%;
     text-align: center;
-    padding-top: 88px;
-    
+
     @mixin atMedium {
-      padding-top: 60px;  /* After setting up the header */
+      padding-top: 60px;
     }
   }
 
