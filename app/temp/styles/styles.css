@@ -674,8 +674,7 @@ a {
     background-color: #e0e6ef;
   }
 
-@media (min-width: 800px) {
-
+@media (min-width: 1010px) {
       .page-section--testimonials.lazyloaded {
         background: url('../../assets/images/testimonials-bg.jpg') top center no-repeat;
         background-size: cover;
@@ -842,7 +841,7 @@ a {
 
 @media (min-width: 800px) {
 
-.row--equal-height-at-medium {
+.flexbox .row--equal-height-at-medium {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex
@@ -850,7 +849,7 @@ a {
   }
   }
 
-.row--equal-height-at-medium > div {
+.flexbox .row--equal-height-at-medium > div {
       float: none;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -859,7 +858,7 @@ a {
 
 @media (min-width: 1010px) {
 
-.row--equal-height-at-large {
+.flexbox .row--equal-height-at-large {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex
@@ -867,7 +866,7 @@ a {
   }
   }
 
-.row--equal-height-at-large > div {
+.flexbox .row--equal-height-at-large > div {
       float: none;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -1187,8 +1186,8 @@ Instead edit gulp/templates/sprite */
   }
 
       .site-header--dark .site-header__logo {
-        -webkit-transform: scale(.57);
-                transform: scale(.57);
+        -webkit-transform: scale(.555);
+                transform: scale(.555);
       }
   }
 
